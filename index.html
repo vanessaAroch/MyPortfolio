@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b16">
+  <meta name="description" content="Student portfolio of Vanessa Ann A. Arocha, Computer Applications student at MSU-IIT.">
+  <title>Vanessa Ann A. Arocha </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Vanessa portfolio home"><span class="brand-mark">V</span><span>vanessa<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="availability"><span class="pulse"></span> STUDENT PORTFOLIO <span class="availability-line"></span></div>
+        <p class="eyebrow">HELLO, WORLD! I'M</p>
+        <h1>Vanessa Ann<br><span class="gradient-text">A. Arocha.</span></h1>
+        <h2 class="hero-subtitle"><span class="typed-prefix">I am a </span><span id="typed-role" class="typed-role">CA Student</span><span class="typing-caret" aria-hidden="true"></span></h2>
+        <p class="hero-description">Curious mind. Creative problem-solver. Always learning something new in the world of technology.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-ghost" href="files/Vanessa-Arocha-Resume.pdf" download="Vanessa-Arocha-Resume.pdf">Download résumé <span aria-hidden="true">↓</span></a>
+          <a class="button button-ghost" href="#contact">Let's connect <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-meta"><span><span class="meta-icon">⌁</span> MSU-IIT</span><span class="meta-separator">/</span><span>Learning by building</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative portfolio monogram">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="hero-glow"></div>
+        <div class="profile-photo-frame">
+          <img src="images/vanessa.jpg" alt="Portrait of Vanessa Ann A. Arocha" class="profile-photo"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <div class="profile-photo-fallback" aria-label="Profile photo placeholder">V<span>.</span>A</div>
+          <span class="photo-corner photo-corner-tl"></span><span class="photo-corner photo-corner-br"></span>
+        </div>
+        <div class="floating-chip chip-top"><span class="chip-dot"></span> Curiosity first</div>
+        <div class="floating-chip chip-bottom"><span class="chip-symbol">✳</span> Building my future</div>
+        <span class="spark spark-one">✦</span><span class="spark spark-two">✧</span><span class="spark spark-three">·</span>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-mouse"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / A LITTLE ABOUT ME</p><h2>Getting to know <span class="gradient-text">Vanessa.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-lead"><span class="quote-mark">“</span><p>I believe every new skill starts with a little curiosity—and every challenge is a chance to grow.</p></div>
+        <div class="about-copy">
+          <p>Hi! I'm <strong>Vanessa Ann A. Arocha</strong>, a Computer Applications (CA) student at Mindanao State University–Iligan Institute of Technology (MSU-IIT).</p>
+          <p>I'm developing my knowledge of technology, digital tools, and problem-solving through learning and hands-on projects. This portfolio is a place to share my progress, highlight my work, and celebrate the things I create along the way.</p>
+          <div class="mini-facts"><div><span class="fact-label">CURRENT ROLE</span><strong>Student</strong></div><div><span class="fact-label">FIELD</span><strong>Computer Applications</strong></div><div><span class="fact-label">MINDSET</span><strong>Always learning ✦</strong></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading"><p class="eyebrow">02 / WHAT I'M LEARNING</p><h2>Skills & <span class="gradient-text">interests.</span></h2><p class="section-intro">A growing toolkit, built one lesson and one project at a time.</p></div>
+      <div class="skill-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Computer Applications</h3><p>Building confidence with digital tools and everyday computing workflows.</p><div class="skill-tags"><span>Productivity</span><span>Digital tools</span></div></article>
+        <article class="skill-card"><div class="skill-icon">{ }</div><h3>Web Development</h3><p>Exploring how websites are structured, styled, and made interactive.</p><div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        <article class="skill-card"><div class="skill-icon">✳</div><h3>Creative Problem-Solving</h3><p>Breaking tasks into steps, testing ideas, and learning from the process.</p><div class="skill-tags"><span>Research</span><span>Iteration</span></div></article>
+        <article class="skill-card"><div class="skill-icon">↗</div><h3>Communication & Growth</h3><p>Practicing collaboration, clear communication, and lifelong learning.</p><div class="skill-tags"><span>Teamwork</span><span>Adaptability</span></div></article>
+      </div>
+      <p class="note-text"><span>✦</span> These are starter categories—update them to reflect your actual skills and experience.</p>
+    </section>
+
+    <section class="section-wrap section-block" id="projects">
+      <div class="section-heading"><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects I'm <span class="gradient-text">proud of.</span></h2><p class="section-intro">Academic projects in software, electronics, IoT, and embedded AI.</p></div>
+      <div class="project-filters" role="group" aria-label="Filter projects">
+        <button class="filter-button active" data-filter="all" aria-pressed="true">All projects</button>
+        <button class="filter-button" data-filter="software" aria-pressed="false">Software</button>
+        <button class="filter-button" data-filter="electronics" aria-pressed="false">Electronics</button>
+        <button class="filter-button" data-filter="iot" aria-pressed="false">IoT & Embedded</button>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-featured" data-category="software"><div class="project-visual visual-one"><div class="project-art-icon">⌘</div><span class="visual-index">PROJECT / 01</span></div><div class="project-info"><div class="project-type">COMPUTER PROGRAMMING 2 · SY 2022–2023, SEM 2</div><h3>B.B.S. — Barangay Blotter System</h3><p>A system concept designed to digitize and streamline barangay blotter and complaint handling.</p><div class="project-footer"><div class="project-tags"><span>Records</span><span>Automation</span><span>Software</span></div><button class="project-link details-button" data-project="0" aria-label="View Barangay Blotter System details">↗</button></div></div></article>
+        <article class="project-card" data-category="electronics"><div class="project-visual visual-two"><div class="project-art-icon">ϟ</div><span class="visual-index">PROJECT / 02</span></div><div class="project-info"><div class="project-type">FUNDAMENTALS OF COMPUTER APPLICATIONS 2 · SY 2022–2023, SEM 2</div><h3>Power Supply</h3><p>Built and troubleshot an AC-to-DC power supply for stable output.</p><div class="project-footer"><div class="project-tags"><span>Circuits</span><span>Electronics</span></div><button class="project-link details-button" data-project="1" aria-label="View Power Supply details">↗</button></div></div></article>
+        <article class="project-card" data-category="electronics"><div class="project-visual visual-three"><div class="project-art-icon">〰</div><span class="visual-index">PROJECT / 03</span></div><div class="project-info"><div class="project-type">ADVANCED COMPUTER CIRCUITS · SY 2023–2024, SEM 1</div><h3>Amplitude-Modulated Radio Transmitter</h3><p>A functional AM transmitter project for short-range audio transmission.</p><div class="project-footer"><div class="project-tags"><span>Analog circuits</span><span>Signal processing</span></div><button class="project-link details-button" data-project="2" aria-label="View AM Radio Transmitter details">↗</button></div></div></article>
+        <article class="project-card" data-category="iot"><div class="project-visual visual-two"><div class="project-art-icon">⌁</div><span class="visual-index">PROJECT / 04</span></div><div class="project-info"><div class="project-type">PROGRAMMING FOR INTERNET OF THINGS · SY 2024–2025, SEM 1</div><h3>Integrated Security and Monitoring System for Sikyop</h3><p>An environmental monitoring prototype for tourism-site awareness and support.</p><div class="project-footer"><div class="project-tags"><span>Sensors</span><span>IoT</span><span>Monitoring</span></div><button class="project-link details-button" data-project="3" aria-label="View Sikyop Monitoring System details">↗</button></div></div></article>
+        <article class="project-card" data-category="iot"><div class="project-visual visual-three"><div class="project-art-icon">◉</div><span class="visual-index">PROJECT / 05</span></div><div class="project-info"><div class="project-type">EMBEDDED SYSTEM PROGRAMMING · SY 2025–2026, SEM 1</div><h3>Banana Quality Inspection and Lifespan Detection</h3><p>A Raspberry Pi Pico-based embedded system concept for monitoring storage conditions and estimating banana shelf life.</p><div class="project-footer"><div class="project-tags"><span>Raspberry Pi Pico</span><span>Sensors</span></div><button class="project-link details-button" data-project="4" aria-label="View Banana Quality project details">↗</button></div></div></article>
+        <article class="project-card" data-category="iot"><div class="project-visual visual-one"><div class="project-art-icon">✳</div><span class="visual-index">PROJECT / 06</span></div><div class="project-info"><div class="project-type">UNDERGRADUATE THESIS · SY 2025–2026, SEM 2</div><h3>XIAO ESP32S3-Based Edge AIoT Prototype for Calamansi HLB Detection</h3><p>An exploratory design and evaluation of an edge-computing prototype for Huanglongbing detection in calamansi.</p><div class="project-footer"><div class="project-tags"><span>XIAO ESP32S3</span><span>Edge AIoT</span><span>HLB</span></div><button class="project-link details-button" data-project="5" aria-label="View HLB thesis project details">↗</button></div></div></article>
+      </div>
+      <p class="note-text"><span>✦</span> Select a category to filter the gallery, or open any project for more details.</p>
+    </section>
+    <dialog class="project-modal" id="project-modal" aria-labelledby="modal-title"><button class="modal-close" aria-label="Close project details">×</button><p class="eyebrow" id="modal-meta">PROJECT DETAILS</p><h2 id="modal-title">Project title</h2><p id="modal-description"></p><h3>Highlights</h3><ul id="modal-highlights"></ul><p class="modal-course" id="modal-course"></p><a class="button button-primary modal-email" href="mailto:arochavanessa67@gmail.com?subject=Question%20about%20your%20project">Ask me about this project ↗</a></dialog>
+
+    <section class="section-wrap section-block" id="education">
+      <div class="section-heading"><p class="eyebrow">04 / MY JOURNEY SO FAR</p><h2>Education & <span class="gradient-text">growth.</span></h2></div>
+      <div class="timeline"><div class="timeline-line"></div><article class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">CURRENT STUDIES</div><div class="timeline-content"><h3>Mindanao State University – Iligan Institute of Technology</h3><p class="timeline-course">Computer Applications (CA)</p><p>Building foundational knowledge and practical skills through coursework, projects, and independent learning.</p><span class="timeline-status"><span></span> Currently studying</span></div></article><article class="timeline-item"><span class="timeline-dot muted-dot"></span><div class="timeline-date">NEXT CHAPTER</div><div class="timeline-content"><h3>More skills. More projects.</h3><p>My journey is ongoing. I'm looking forward to exploring new tools, working on meaningful projects, and growing as a student.</p></div></article></div>
+    </section>
+
+    <section class="section-wrap contact-section" id="contact">
+      <div class="contact-glow"></div><p class="eyebrow">05 / SAY HELLO</p><h2>Have an idea?<br><span class="gradient-text">Let's connect.</span></h2><p class="contact-description">I'm always open to learning, sharing ideas, and connecting with fellow students and creators.</p>
+      <a class="button button-primary contact-button" href="mailto:arochavanessa67@gmail.com" id="email-link">Email me <span aria-hidden="true">↗</span></a>
+      <div class="contact-actions"><span class="contact-email">arochavanessa67@gmail.com</span><button class="button button-ghost" id="copy-email" type="button">Copy email</button></div><p class="contact-hint" id="copy-status" aria-live="polite">Click “Email me” to send a message from your email app.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">V</span><span>vanessa<span class="brand-dot">.</span></span></a><p>Designed with curiosity <span class="footer-heart">✦</span> by Vanessa Ann A. Arocha</p><a class="back-top" href="#home">BACK TO TOP ↑</a><span class="copyright">© <span id="year"></span> VANESSA AROCHA</span></footer>
+</body>
+</html>

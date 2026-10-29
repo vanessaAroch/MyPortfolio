@@ -1,0 +1,13 @@
+PORTFOLIO UPDATE GUIDE
+
+Email:
+The portfolio contact button opens an email draft to arochavanessa67@gmail.com. The Copy Email button copies the address when clipboard access is available.
+
+Projects:
+Six academic projects have been added based on the project list provided. Use the filter buttons to filter by Software, Electronics, and IoT & Embedded. Click the round arrow on a project card to open its details.
+
+Images and résumé:
+Place your profile photo at images/vanessa.jpg. Place project screenshots at images/project-1.png, images/project-2.png, etc. Add your résumé at files/Vanessa-Arocha-Resume.pdf. These files are optional.
+
+Run:
+Open the folder in VS Code and open index.html in a browser. For best results, use the Live Server extension.
